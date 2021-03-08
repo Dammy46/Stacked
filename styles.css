@@ -1,0 +1,383 @@
+body {
+    scroll-behavior: smooth;
+}
+#main-nav {
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.logo {
+    height: 2rem;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+/* Title */
+#title {
+    background-image: url(header-bg.jpg);
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+}
+.heading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+.head {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+}
+.btn-color {
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+}
+.btn-xl {
+    padding: 1.25rem 2.5rem;
+}
+.btn:hover {
+    background-color: #fed136;
+    border-color: #fed136;
+}
+.text-uppercase {
+    font-size: large;
+    font-weight: inherit;
+}
+
+
+/* Paging */
+#page {
+    padding: 6rem 0;
+    text-align: center;
+    
+}
+.h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: Arial Black;
+}
+.h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 4rem;
+}
+.icon {
+    color: #fed136;
+}
+.my {
+    margin: 16 16;
+}
+
+
+/* Portfolio */
+#portfolio {
+    padding: 6rem 0;
+    background-color: rgb(223, 215, 215);
+    text-align: center;
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+.portfolio-caption {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #fff
+}
+.portfolio-caption-heading {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+/* About */
+#about {
+    padding: 6rem 0;
+    text-align: center;
+}
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.timeline-inverted {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 130px;
+}
+li::before {
+    display: table;
+    content: "";
+}
+li::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+.img-fluid1 {
+    max-width: 100%;
+    height: auto;
+}
+.timeline-panel {
+    padding: 0 102px 0 69px;
+    float: left;
+    width: 50%;
+    text-align: right;
+    position: relative;
+}
+.timeline::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    margin-left: -1.5px;
+    content: "";
+    background-color: #e9ecef;
+}
+.timeline-image {
+    color: #fff;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+    background-color: #fed136;
+    text-align: center;
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+    left: 50%;
+    position: absolute;
+    z-index: 100;
+}
+h4 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    line-height: 26px;
+}
+
+
+.margin .timeline-panel {
+    float: right;
+    text-align: left;
+    padding-left: 102px;
+}
+
+.be {
+    margin-top: 35px;
+}
+/* TEAMS */
+#team {
+    padding: 6rem 0;
+    text-align: center;
+    background-color: rgb(223, 215, 215);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.circle {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid #dbdfe2;
+}
+.h4 {
+    margin-top: 1.8rem;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+}
+.btn-dark:hover {
+    background-color: rgb(44, 41, 41);
+    border-color: #000;
+}
+.large {
+    font-size: 1rem;
+}
+
+
+/* Client */
+.container{
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+
+/* contact */
+#contact {
+    padding: 6rem 0;
+    background-image: url(image/map-image.png);
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+.control {
+    height: auto;
+    padding: 1.25rem;
+    transition: none;
+}
+textarea.form-control {
+    height: 94%;
+}
+
+
+/* copyright */
+#copyright {
+    padding: 2rem 2rem;
+    text-align: center;
+}
+.copy:hover{
+    color: #fed136;
+}
+.copy {
+    color: #fed136;
+}
+@media (max-width: 1028px) {
+    #main-nav {
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+    .logo {
+        height: 5rem;
+    }
+    .navbar-toggler {
+        font-size: 2.5rem;
+        background-color: #fed136;
+        color: #fff;
+    }
+    #title {
+        padding-top: 29rem;
+    }
+    .heading {
+        font-size: 4.25rem;
+        margin-bottom: 4rem;
+        line-height: 4.25rem;
+    }
+    .head {
+        font-size: 5.5rem;
+    }
+    .text-uppercase {
+        font-size: 37px;
+    }
+    .h2 {
+        font-size: 4.5rem;
+    }
+    .h3 {
+        font-size: 3rem;
+    }
+    .fa-4x {
+        font-size: 7em;
+    }
+    p {
+        font-size: 47px;
+    }
+    h4 {
+        font-size: 3.4rem;
+        line-height: 51px;
+    }
+    .portfolio-caption-heading{
+        font-size: 4rem;
+    }
+    .text-muted{
+        font-size: 45px;
+    }
+    .timeline::before{
+        left: -5%;
+    }
+    .timeline-image {
+        left: -5%;
+    }
+    .timeline-panel {
+        padding: 0 102px 0 69px;
+        float: left;
+        width: 120%;
+        text-align: left;
+        position: relative;
+    }
+    .margin .timeline-panel {
+        float: left;
+        text-align: left;
+        padding-left: 69px;
+    } 
+    .be {
+        margin-top: 41px;
+        font-size: 30px;
+        line-height: 1;
+    }
+    .circle {
+        width: 20rem;
+        height: 20rem;
+        border: 0.5rem solid #dbdfe2;
+    }
+    .btn-social {
+        height: 5.5rem;
+        width: 5.5rem;
+    }
+    .fa-1x {
+        font-size: 2em;
+    }
+    .down {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .form-control {
+        font-size: 2rem;
+    }
+    .copy-copy {
+        font-size: 24px;
+    }
+    .copy {
+        font-size: 24px;
+    }
+    .fa-bars {
+        padding-left: 8px;
+    }
+    .navbar-dark .navbar-toggler {
+        color: #fff;
+    }
+}
